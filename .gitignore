@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Generated project artifacts
+embeddings.joblib
+prompt.txt
+response.txt
+output.json
+CODE.zip
+
+# Source media and generated transcripts
+audios/
+videos/
+jsons/
+newjsons/
+
+# Local notebooks and miscellaneous course material
+others/
+unused/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
